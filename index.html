@@ -19,6 +19,14 @@
         <!-- main css -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
+
+
+		<link rel="stylesheet" href="css/lightbox.min.css">
+		<!--fav-icon------------------------------------->
+		<link rel="shortcut icon" href="images/fav-icon.png"/>
+		<!--poppins-font-family-------------------------->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+
     </head>
     <body>
         
@@ -127,7 +135,7 @@
         </section>
         <!--================End Welcome Area =================-->
         
-        <!--================My Tabs Area =================-->
+        <!--================Experience Area =================-->
         <section class="mytabs_area p_120">
         	<div class="container">
         		<div class="tabs_inner">
@@ -280,26 +288,80 @@
         		</div>
         	</div>
         </section>
-        <!--================End My Tabs Area =================-->
+        <!--================End Experience Area =================-->
         
         <!--================Portoflio Area =================-->
         <section class="home_gallery_area p_120">
         	<div class="container">
         		<div class="main_title">
-        			<h2>Portfolio</h2>
+        			<h2>Project Portfolio</h2>
+        		</div>
+        		<div class="isotope_fillter">
+        			<ul class="gallery_filter list">
+						<li class="active" data-filter="*"><a href="#">All</a></li>
+						<li data-filter=".product_design"><a href="#">Product Design</a></li>
+						<li data-filter=".graphic_design"><a href="#">Graphic Design</a></li>
+						<li data-filter=".uiux"><a href="#">UI/UX</a></li>
+					</ul>
         		</div>
         	</div>
         	<div class="container">
         		<div class="gallery_f_inner row imageGallery1">
+        			<div class="col-lg-4 col-md-4 col-sm-6 product_design">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<a href="projects/pdesign.html" target="_blank"> <img class="img-fluid" src="projects/images/ui1_front.jpg"></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>Product Design</h4>
+        						<p style="text-align:left">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit
+								</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 graphic_design">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+        						<a href="projects/gdesign.html" target="_blank"> <img class="img-fluid" src="projects/images/ui1_front.jpg"></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>Graphic Design</h4>
+        						<p style="text-align:left">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit
+								</p>
+        					</div>
+        				</div>
+        			</div>
+        			<div class="col-lg-4 col-md-4 col-sm-6 uiux">
+        				<div class="h_gallery_item">
+        					<div class="g_img_item">
+								<a href="projects/uiux.html" target="_blank"> <img class="img-fluid" src="projects/images/ui1_front.jpg"></a>
+        					</div>
+        					<div class="g_item_text">
+        						<h4>UI/UX</h4>
+        						<p style="text-align:left">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit
+								</p>
+        					</div>
+        				</div>
+        			</div>
+        		</div>
+        		<!-- <div class="more_btn">
+        			<a class="main_btn" href="#">Load More Items</a>
+        		</div> -->
+        	</div>
+        </section>
+
+        		<!-- <div class="gallery_f_inner row imageGallery1">
 					<iframe allowfullscreen="allowfullscreen" scrolling="no" class="fp-iframe" style="border: 1px solid lightgray; width: 100%; height: 850px;" src="https://heyzine.com/flip-book/274d5b5d1c.html"></iframe>
         		</div>
 				<br>
 				<br>
 				<div class="gallery_f_inner row imageGallery2">
 					<iframe style="border: 1px solid lightgray; width: 100%; margin-top: 40px;" width="800" height="1000" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F1AoJOepeKpne8yGaHXq13z%2FUntitled%3Fpage-id%3D0%253A1%26node-id%3D2%253A2%26viewport%3D241%252C48%252C0.9%26scaling%3Dscale-down" allowfullscreen></iframe>
-        		</div>
-        	</div>
-        </section>
+        		</div> -->
+        	
         <!--================End Home Gallery Area =================-->
         
         <!--================Footer Area =================-->
